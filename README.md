@@ -17,3 +17,4 @@
       
 4.reports folder will be generated and you will get the html report
 
+![Capture](https://user-images.githubusercontent.com/78067017/154509737-2dd61d00-603c-4957-bc82-6bb99773eb62.PNG)
