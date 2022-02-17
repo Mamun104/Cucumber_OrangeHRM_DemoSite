@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Login to the portal with invalid credentials",
+        "description": "",
+        "id": "login-to-a-hrm-portal;login-to-the-portal-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17834414800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user visits to the HRM portal",
+            "match": {
+              "location": "StepDefinitions.user_visits_to_the_HRM_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2385411000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user inputs invalid \"user1\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 21
+                },
+                {
+                  "val": "1234",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinitions.user_inputs_invalid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1279395900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user can not log in",
+            "match": {
+              "location": "StepDefinitions.user_can_not_log_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Login to the portal with invalid credentials",
+        "description": "",
+        "id": "login-to-a-hrm-portal;login-to-the-portal-with-invalid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16796451300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user visits to the HRM portal",
+            "match": {
+              "location": "StepDefinitions.user_visits_to_the_HRM_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2192685700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user inputs invalid \"user2\" and \"2345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 21
+                },
+                {
+                  "val": "2345",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinitions.user_inputs_invalid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1347124500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user can not log in",
+            "match": {
+              "location": "StepDefinitions.user_can_not_log_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to a HRM portal",
+    "description": "",
+    "id": "login-to-a-hrm-portal",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": []
+  }
+]
